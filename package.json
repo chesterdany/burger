@@ -22,7 +22,7 @@
     "eject": "react-scripts eject",
     "homepage": "http://chesterdany.github.io/burger",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
